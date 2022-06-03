@@ -1,2 +1,3 @@
 # ahk-scripts
- All AutoHotKey Custom Scripts are stored here
+
+All autohotkey custom scripts are stored here.
