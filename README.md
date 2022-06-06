@@ -1,8 +1,3 @@
-# ahk-scripts
+# Custom Scripts
 
-All autohotkey custom scripts are stored here.
-
-
-# Windows_daily_task.ahk
-
-This Script contains all my daily necesseties for the scripts needed for running the files.
+all personal scripts are stored here.
