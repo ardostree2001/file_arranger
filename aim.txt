@@ -1,0 +1,4 @@
+Aim for project:
+
+1. Copy and Move Files according to user input path
+2. Copy and Move files according to file format
