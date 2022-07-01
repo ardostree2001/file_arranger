@@ -23,23 +23,28 @@ t.sleep(5)
 # This function helps in selecting the options.
 # START
 def main_menu():
-        print("\n\n******MAIN MENU******: \n 1.Copy Files(According to format)  ")
+
+        print("\n\n******MAIN MENU******: \n 1.Copy Files(According to format)")
         print("\n 3.Copy Files\n 4.Move Files")
-        print("\n 5.Reselecting the directory path \n\n \"Enter '0' to Exit\" \n")
+        print("\n 5.Change the path \n\n \"Enter '0' to Exit\"")
+
+
         try:
-                option = int(input())
+                option = int(input("\n Your Option: "))
 
         except ValueError:
                 print("You entered a character/decimal instead of digit, Are you serious!!, \"Please only select number I beg of you.\"")
                 t.sleep(5)
                 return main_menu()
 
+        # First Option Selection
         if option == 1:
                 print("\nFirst Option is Selected:")
                 format_copy()
                 t.sleep(2)
                 return main_menu()
 
+        # Second option Selector
         elif option == 2:
                 print("\nSecond Option is Selected:")
                 format_move() 
@@ -94,7 +99,7 @@ def direct_move():
 
 # All File name, path are stored here.
 def user_data_collector():
-        print("\nUser data collector")
+        print("\n****** Select the Data **************")
         des_folder = input("Destination: ")
         des_folder = input("Source: ")
         file_dir = input("File Directive: ")
