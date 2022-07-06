@@ -103,6 +103,7 @@ def user_data_collector():
         des_folder = input("Destination: ")
         des_folder = input("Source: ")
         file_dir = input("File Directive: ")
+        t.sleep(2)
         main_menu()
 
 user_data_collector()
